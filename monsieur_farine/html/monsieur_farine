@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Monsieur Farine - Artisant Boulanger</title>
+  </head>
+  <body>
+    <main>
+      <h1>Monsieur Farine</h1>
+      <p><strong>25 rue baguette, 59000 Lille</strong></p>
+      <img
+        src="../photo/monsieur_farine.jpg"
+        alt="monsieur_farine"
+        height="300"
+        width="450"
+      />
+      <img src="../photo/vitrine.jpg" alt="vitrine" height="300" width="450" />
+      <br />
+      <br />
+      <h2>L’histoire de Monsieur Farine, Artisan Boulanger à Lille</h2>
+      <p>
+        Bienvenue chez <em></em>Monsieur Farine, artisan boulanger passionné,
+        installé au cœur de Lille. Depuis son enfance, il a grandi au rythme de
+        la boulangerie, observant son père pétrir et cuire le pain dans un four
+        à bois. Après des années d'apprentissage, il décide d'ouvrir "La Maison
+        de Monsieur Farine", un atelier où chaque pain et viennoiserie est
+        confectionné avec soin et savoir-faire. À Lille, Monsieur Farine utilise
+        des ingrédients locaux de qualité et respecte les méthodes
+        traditionnelles. Son pain, pétri à la main et cuit dans un four à bois,
+        incarne l'authenticité et la générosité du véritable pain fait maison.
+        Venez découvrir l’histoire de Monsieur Farine, un artisan amoureux de
+        son métier, et savourer des produits qui racontent l'âme de Lille et de
+        la boulangerie traditionnelle.
+      </p>
+      <br />
+      <h2>Me Contacter</h2>
+      <strong>
+        <a href="mailto:contact@monsieur-farine.com"
+          >contact@monsieur-farine.com</a
+        >
+      </strong>
+    </main>
+  </body>
+</html>

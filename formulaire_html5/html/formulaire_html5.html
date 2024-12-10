@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Questionnaire Client</title>
+  </head>
+  <body>
+    <h1>Questionnaire Client</h1>
+
+    <form action="" method="post">
+      <p>
+        <input type="radio" name="genre" value="mme" id="mme" />
+        <label for="mme">Mme</label>
+        <input type="radio" name="genre" value="mle" id="mle" />
+        <label for="mle">Mle</label>
+        <input type="radio" name="genre" value="mr" id="mr" />
+        <label for="mr">Mr</label>
+      </p>
+
+      <label for="nom">Nom :</label>
+      <input
+        type="text"
+        name="nom"
+        id="nom"
+        placeholder="Jourdan"
+        size="30"
+        maxlength="50"
+      />
+
+      <label for="prenom">Prénom :</label>
+      <input
+        type="text"
+        name="prenom"
+        id="prenom"
+        placeholder="Sara"
+        size="30"
+        maxlength="50"
+      />
+
+      <br /><br />
+      <label for="date">Date de naissance :</label>
+      <input type="date" />
+      <br /><br />
+      <label for="telephone">Téléphone :</label>
+      <input
+        type="tel"
+        name="telephone"
+        id="telephone"
+        placeholder="06.."
+        size="30"
+        maxlength="10"
+      />
+
+      <label for="email">Email :</label>
+      <input
+        type="email"
+        name="email"
+        id=""
+        placeholder="sara@mail.com"
+        size="30"
+        maxlength="50"
+      />
+      <br /><br />
+
+      <label for="adresse">Adresse :</label>
+      <input
+        type="text"
+        name="adresse"
+        id="adresse"
+        placeholder="16 rue de Camille"
+        size="30"
+        maxlength="50"
+      />
+
+      <label for="postal">Code Postal :</label>
+      <input
+        type="text"
+        name="postal"
+        id="postal"
+        placeholder="59000"
+        size="30"
+        maxlength="50"
+      />
+      <br /><br />
+
+      <label for="ville">Ville :</label>
+      <input
+        type="text"
+        name="ville"
+        id="ville"
+        placeholder="Lille"
+        size="30"
+        maxlength="50"
+      />
+
+      <label for="pays">Pays :</label>
+      <input
+        type="text"
+        name="pays"
+        id="pays"
+        placeholder="France"
+        size="30"
+        maxlength="50"
+      />
+      <br />
+      <br />
+      <hr />
+
+      <p>
+        Utilisez-vous nos produits? <br />
+        <input type="radio" name="choix1" value="oui1" id="oui1" />
+        <label for="oui1">Oui</label>
+        <input type="radio" name="choix1" value="non1" id="non1" />
+        <label for="non1">Non</label>
+      </p>
+      <p>
+        Es-ce important pour vous d'avoir une belle peau? <br />
+        <input type="radio" name="choix2" value="oui2" id="oui2" />
+        <label for="oui2">Oui</label>
+        <input type="radio" name="choix2" value="non2" id="non2" />
+        <label for="non2">Non</label>
+      </p>
+      <p>
+        Quel produit utilisez-vous pour votre routine beauté?
+        <input type="checkbox" />
+      </p>
+    </form>
+  </body>
+</html>

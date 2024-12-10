@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Formulaire</h1>
+    <hr />
+    <br />
+    <form action="" method="get">
+      <label for="prenom">Prénom :</label>
+      <input
+        type="text"
+        name="prenom"
+        id="prenom"
+        placeholder="Sara"
+        size="30"
+        maxlength="20"
+      />
+
+      <label for="nom">Nom :</label>
+      <input
+        type="text"
+        name="nom"
+        id="nom"
+        placeholder="Jourdan"
+        size="30"
+        maxlength="20"
+      />
+
+      <label for="age">Age :</label>
+      <input
+        type="number"
+        name="age"
+        id="age"
+        max="150"
+        placeholder="22"
+        size="30"
+      />
+
+      <p>
+        Genre :
+        <input type="radio" name="genre" value="h" id="f" />
+        <label for="h">Homme</label>
+        <input type="radio" name="genre" value="f" id="f" />
+        <label for="f">Femme</label>
+      </p>
+
+      <label for="email">Adresse Mail :</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        size="30"
+        placeholder="ex@mail.com"
+      />
+      <br />
+      <br />
+      <label for="adresse">Adresse :</label>
+      <input
+        type="text"
+        name="adresse"
+        id="adresse"
+        size="30"
+        placeholder="59 rue de pluie"
+      />
+
+      <label for="code_postal">Code Postal :</label>
+      <input
+        type="text"
+        name="code_postal"
+        id="code_postal"
+        size="30"
+        placeholder="59000"
+      />
+
+      <label for="ville">Ville :</label>
+      <input
+        type="text"
+        name="ville"
+        id="ville"
+        size="30"
+        placeholder="Lille"
+      />
+      <br />
+      <br />
+      <label for="metier">Métier éxercé :</label>
+      <input
+        type="text"
+        name="metier"
+        id="metier"
+        size="30"
+        placeholder="Intégrateur web"
+      />
+      <br />
+      <br />
+      <label for="nationalite">Nationalité :</label>
+      <input
+        type="text"
+        name="nationalite"
+        id="nationalite"
+        size="30"
+        placeholder="Française"
+      />
+
+      <label for="date_naissance">Date de naissance :</label>
+      <input type="date" name="date_naissance" id="date_naissance" />
+
+      <label for="pays_naissance">Pays de naissance :</label>
+      <input
+        type="text"
+        name="pays_naissance"
+        id="pays_naissance"
+        size="30"
+        placeholder="France"
+      />
+      <br />
+      <br />
+      <label for="securite_sociale">Numéro de sécurité social :</label>
+      <input
+        type="text"
+        name="securite_social"
+        id="securite_social"
+        size="30"
+        maxlength="13"
+      />
+
+      <label for="passeport">Numéro du passeport :</label>
+      <input
+        type="text"
+        name="passeport"
+        id="passeport"
+        size="30"
+        maxlength="9"
+        placeholder=""
+      />
+      <br />
+      <br />
+      <label for="date_delivrance">Date de délivrance du passeport :</label>
+      <input
+        type="date"
+        name="date_delivrance"
+        id="date_delivrance"
+        size="30"
+      />
+
+      <label for="date_validite">Date de validité du passeport :</label>
+      <input type="date" name="date_validite" id="date_validite" size="30" />
+      <br />
+      <br />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
