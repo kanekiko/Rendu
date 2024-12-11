@@ -3,20 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Questionnaire Client</title>
+    <title>Document</title>
   </head>
   <body>
-    <h1>Questionnaire Client</h1>
-
-    <form action="" method="post">
-      <p>
-        <input type="radio" name="genre" value="mme" id="mme" />
-        <label for="mme">Mme</label>
-        <input type="radio" name="genre" value="mle" id="mle" />
-        <label for="mle">Mle</label>
-        <input type="radio" name="genre" value="mr" id="mr" />
-        <label for="mr">Mr</label>
-      </p>
+    <h1>Formulaire</h1>
+    <hr />
+    <br />
+    <form action="" method="get">
+      <label for="prenom">Prénom :</label>
+      <input
+        type="text"
+        name="prenom"
+        id="prenom"
+        placeholder="Sara"
+        size="30"
+        maxlength="20"
+      />
 
       <label for="nom">Nom :</label>
       <input
@@ -25,106 +27,130 @@
         id="nom"
         placeholder="Jourdan"
         size="30"
-        maxlength="50"
+        maxlength="20"
       />
 
-      <label for="prenom">Prénom :</label>
+      <label for="age">Age :</label>
       <input
-        type="text"
-        name="prenom"
-        id="prenom"
-        placeholder="Sara"
+        type="number"
+        name="age"
+        id="age"
+        max="150"
+        placeholder="22"
         size="30"
-        maxlength="50"
       />
 
-      <br /><br />
-      <label for="date">Date de naissance :</label>
-      <input type="date" />
-      <br /><br />
-      <label for="telephone">Téléphone :</label>
-      <input
-        type="tel"
-        name="telephone"
-        id="telephone"
-        placeholder="06.."
-        size="30"
-        maxlength="10"
-      />
+      <p>
+        Genre :
+        <input type="radio" name="genre" value="h" id="f" />
+        <label for="h">Homme</label>
+        <input type="radio" name="genre" value="f" id="f" />
+        <label for="f">Femme</label>
+      </p>
 
-      <label for="email">Email :</label>
+      <label for="email">Adresse Mail :</label>
       <input
         type="email"
         name="email"
-        id=""
-        placeholder="sara@mail.com"
+        id="email"
         size="30"
-        maxlength="50"
+        placeholder="ex@mail.com"
       />
-      <br /><br />
-
+      <br />
+      <br />
       <label for="adresse">Adresse :</label>
       <input
         type="text"
         name="adresse"
         id="adresse"
-        placeholder="16 rue de Camille"
         size="30"
-        maxlength="50"
+        placeholder="59 rue de pluie"
       />
 
-      <label for="postal">Code Postal :</label>
+      <label for="code_postal">Code Postal :</label>
       <input
         type="text"
-        name="postal"
-        id="postal"
-        placeholder="59000"
+        name="code_postal"
+        id="code_postal"
         size="30"
-        maxlength="50"
+        placeholder="59000"
       />
-      <br /><br />
 
       <label for="ville">Ville :</label>
       <input
         type="text"
         name="ville"
         id="ville"
-        placeholder="Lille"
         size="30"
-        maxlength="50"
+        placeholder="Lille"
       />
-
-      <label for="pays">Pays :</label>
+      <br />
+      <br />
+      <label for="metier">Métier éxercé :</label>
       <input
         type="text"
-        name="pays"
-        id="pays"
-        placeholder="France"
+        name="metier"
+        id="metier"
         size="30"
-        maxlength="50"
+        placeholder="Intégrateur web"
       />
       <br />
       <br />
-      <hr />
+      <label for="nationalite">Nationalité :</label>
+      <input
+        type="text"
+        name="nationalite"
+        id="nationalite"
+        size="30"
+        placeholder="Française"
+      />
 
-      <p>
-        Utilisez-vous nos produits? <br />
-        <input type="radio" name="choix1" value="oui1" id="oui1" />
-        <label for="oui1">Oui</label>
-        <input type="radio" name="choix1" value="non1" id="non1" />
-        <label for="non1">Non</label>
-      </p>
-      <p>
-        Es-ce important pour vous d'avoir une belle peau? <br />
-        <input type="radio" name="choix2" value="oui2" id="oui2" />
-        <label for="oui2">Oui</label>
-        <input type="radio" name="choix2" value="non2" id="non2" />
-        <label for="non2">Non</label>
-      </p>
-      <p>
-        Quel produit utilisez-vous pour votre routine beauté?
-        <input type="checkbox" />
-      </p>
+      <label for="date_naissance">Date de naissance :</label>
+      <input type="date" name="date_naissance" id="date_naissance" />
+
+      <label for="pays_naissance">Pays de naissance :</label>
+      <input
+        type="text"
+        name="pays_naissance"
+        id="pays_naissance"
+        size="30"
+        placeholder="France"
+      />
+      <br />
+      <br />
+      <label for="securite_sociale">Numéro de sécurité social :</label>
+      <input
+        type="text"
+        name="securite_social"
+        id="securite_social"
+        size="30"
+        maxlength="13"
+      />
+
+      <label for="passeport">Numéro du passeport :</label>
+      <input
+        type="text"
+        name="passeport"
+        id="passeport"
+        size="30"
+        maxlength="9"
+        placeholder=""
+      />
+      <br />
+      <br />
+      <label for="date_delivrance">Date de délivrance du passeport :</label>
+      <input
+        type="date"
+        name="date_delivrance"
+        id="date_delivrance"
+        size="30"
+      />
+
+      <label for="date_validite">Date de validité du passeport :</label>
+      <input type="date" name="date_validite" id="date_validite" size="30" />
+      <br />
+      <br />
+      <input type="submit" />
     </form>
   </body>
 </html>
